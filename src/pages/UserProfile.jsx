@@ -134,7 +134,7 @@ const UserProfile = () => {
               <span>{stopButton ? currentTime : stoppedTime}</span>
             </div>
             <button
-              className="bg-blue-300 border border-black rounded p-2 text-black hover:bg-blue-400"
+              className="bg-green-300 border border-black rounded p-2 text-black hover:bg-green-400"
               onClick={(e) => timerPlayPause(e)}
             >
               {stopButton ? "Pause" : "Start"}
@@ -151,7 +151,7 @@ const UserProfile = () => {
               {userInfo.username} | {userInfo.website}
             </p>
           </div>
-          <div className="text-lg font-semibold">
+          <div className="text-lg">
             <p>
               {userInfo.address && userInfo.address.city},
               {userInfo.address && userInfo.address.street},

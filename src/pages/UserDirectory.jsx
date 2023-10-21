@@ -49,7 +49,7 @@ const UserDirectory = () => {
   return (
     <div>
       <div className="w-screen text-center mt-10">
-        <div className="inline-block">Users</div>
+        <div className="inline-block">Directory</div>
       </div>
       {userDetails[0] && <UserCard userDetails={userDetails} />}
     </div>
